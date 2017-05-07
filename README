@@ -1,0 +1,8 @@
+How to build the solution:
+1. make in os/
+2. make in apps/q?, ? = 2, 3, 4, 5
+3. make run in the corresponding directory.
+
+About our q5
+1. After N2 / O2 are produced, there should be some processes sleeping because only half of the processes get enough number of atoms (2).  We used some techniques to signal them and terminate themselves.  So odd number of N or O  is OK in our design.
+2. The same technique is used in the makeN2 / makeO3 cases, so the number of N or O can be arbitary.
